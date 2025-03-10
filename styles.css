@@ -11,7 +11,7 @@
 body {
     padding: 0;
     margin: 0;
-    background: linear-gradient(to bottom right, #414242, #ffbf00);
+    background: linear-gradient(to bottom right, #181919, #ffbf00);
 }
 
 .calculator {
@@ -24,7 +24,7 @@ body {
 }
 
 .display {
-    grid-column: 1 / -1;
+    grid-column: 1 / 5;
     background-color: rgba(0, 0, 0, .75);
     padding: 10px;
 
@@ -51,13 +51,8 @@ body {
     cursor: pointer;
     font-size: 2rem;
     border: 1px solid rgba(0, 0, 0, .75);
-    ;
     outline: none;
     background-color: rgba(255, 255, 255, 0.5);
-}
-
-.calculator>button:hover {
-    background-color: rgba(255, 255, 255, 0.8);
 }
 
 .span-two {
@@ -67,4 +62,8 @@ body {
 .calculator .btn-operator {
     color: orangered;
     background-color: rgba(255, 255, 255, 0.6);
+}
+
+.calculator>button:hover {
+    background-color: rgba(255, 255, 255, 0.8);
 }
